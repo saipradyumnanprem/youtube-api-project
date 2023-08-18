@@ -1,0 +1,31 @@
+/* Global */
+
+body{
+  background-color: #000;
+  font-size: 0.8rem;
+}
+
+.form-field{
+  margin: auto;
+}
+
+/* End of Global */
+
+
+/* Select Menu for Countries */
+
+.md-country-picker-item {
+  position: relative;
+  line-height: 20px;
+  padding: 10px 0 10px 40px;
+}
+
+.md-country-picker-flag {
+  position: absolute;
+  left: 0;
+  height: 20px;
+}
+
+.mbsc-scroller-wheel-item-2d .md-country-picker-item {
+  transform: scale(1.1);
+}
